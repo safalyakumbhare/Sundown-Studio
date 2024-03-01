@@ -18,7 +18,8 @@ body {
 #page1 {
   min-height: 100vh;
   width: 100%;
-  background-color: #efeae3;
+  /* background-color: #efeae3; */
+  background-color: rgb(8, 8, 40);
   position: relative;
   padding: 0 2vw;
 }
@@ -109,10 +110,48 @@ nav {
   position: absolute;
   height: 36vw;
   width: 46vw;
-  background-color: #FE350A;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
   right: 0%;
   top:65vh;
-  filter:blur(20px)
+}
+
+#hero-1{
+  height: 100%;
+  width: 100%;
+  background-color:  #FE350A;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  filter:blur(20px);
+  position: absolute;
+}
+#hero-2{
+  height: 30vw;
+  width: 30vw;
+  background-color:  #FE350A;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  filter:blur(20px);
+  position: absolute;
+}
+#hero-3{
+  height: 30vw;
+  width: 30vw;
+  background-color:  #FE350A;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  filter:blur(20px);
+  position: absolute;
+  animation-name: anime1;
+  animation-duration:3s;
+  animation-timing-function:linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime1{
+  from{
+    transform: translate(10%, -10%);
+  }
+  to{
+    transform: translate(-10%,10%);
+  }
 }
