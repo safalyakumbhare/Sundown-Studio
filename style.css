@@ -115,7 +115,7 @@ nav {
 #hero-1 {
   height: 100%;
   width: 100%;
-  background-color: #fe350a;
+  background-color: #fe320a;
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%; 
   filter: blur(10px);
@@ -124,7 +124,7 @@ nav {
 #hero-2 {
   height: 30vw;
   width: 30vw;
-  background: linear-gradient(#fe350a,#fe5f0a);
+  background: linear-gradient(#fe320a,#fe5f0a);
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   filter: blur(25px); 
@@ -138,7 +138,7 @@ nav {
 #hero-3 {
   height: 20vw;
   width: 30vw;
-  background: linear-gradient(#fe350a,#fe5f0a);
+  background: linear-gradient(#fe320a,#fe5f0a);
   transform: rotate(-90deg);
   border-radius: 50%;
   filter:blur(25px);
