@@ -166,3 +166,53 @@ nav {
     transform: translate(-20%, 30%);
   }
 }
+
+#page2{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #efeae3;
+  padding: 8vw 0;
+
+}
+.con{
+  /* background-color: aqua; */
+  white-space: nowrap;
+  display: inline-block;
+  animation-name:move;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+#moving-text::-webkit-scrollbar{
+  display: none;
+}
+#moving-text{
+  white-space: nowrap;
+  overflow-x: auto;
+
+}
+#moving-text h1{
+  font-size: 9vw;
+  /* background-color: aqua; */
+  display: inline-block;
+
+}
+
+#gola{
+  height: 70px;
+  width:  70px;
+  border-radius: 50%;
+  background-color: #fe320a;
+  display: inline-block;
+  margin: 1vw 3vw;
+}
+
+@keyframes move {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
