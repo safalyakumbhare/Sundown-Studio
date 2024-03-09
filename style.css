@@ -7,12 +7,21 @@
   font-weight: 100;
   src: url(NeueHaasDisplayLight.ttf);
 }
+@font-face {
+  font-family: xyz;
+  font-weight: 200;
+  src: url(NeueHaasDisplayRoman.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: xyz;
 }
+/* #page1,#page2,#page2-bottom{
+  background-color: black !important;
+  color: aliceblue ;
+} */
 html,
 body {
   height: 100%;
@@ -223,18 +232,19 @@ nav {
   width: 100%;
   background-color: aliceblue;
   display: flex;
-  padding: 4vw;
+  padding: 4.5vw;
   align-items: center;
   justify-content: space-between;
 }
 
 #page2-bottom h1 {
-  font-size: 3.5vw;
-  width: 50%;
+  font-size: 4vw;
+  width: 60%;
+  line-height: 4vw;
 }
 
 #bottom-part2 {
-  width: 25%;
+  width: 20%;
   /* background-color: aqua; */
 }
 
@@ -244,5 +254,7 @@ nav {
 }
 
 #bottom-part2 p {
-  font-weight: 100;
+  font-weight: 200;
+  margin-top: 2vw;
+  font-size: 1vw;
 }
